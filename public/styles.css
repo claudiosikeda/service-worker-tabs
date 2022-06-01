@@ -1,0 +1,26 @@
+html, body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240,240,240);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.content {
+  background-color: rgb(250,250,250);
+  display: grid;
+  place-items: center;
+  height: 200px;
+  width: 400px;
+  border: solid 1px rgb(200,200,200);
+  border-radius: 5px;
+  padding: 15px 20px;
+}

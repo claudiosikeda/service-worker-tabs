@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="inner-content" id="content">
+          <div id="order">
+            <h3>Teste Service Worker Múltiplas abas</h3>
+            <p id="datetime">
+            </p>
+            <div id="order-number"></div>
+            <p>
+              <a href="/public/order.html" target="_blank">
+                Abrir novo pedido em outra aba
+              </a>
+            </p>
+          </div>
+
+          <div id="invalid-tab" style="display: none;">
+            <h2>Aba inválida</h2>
+            <p>
+              <a href="/public/" target="_blank">
+                Voltar para Home
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../index.js"></script>
+</body>
+</html>
